@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context="com.example.asus.proyectoasistencia.Login">
+
+    <TextView android:layout_width="wrap_content" android:text="Usuario"
+        android:layout_height="wrap_content" />
+
+    <EditText android:id="@+id/ettUsuario" android:layout_width="match_parent"
+        android:layout_marginBottom="10dp" android:layout_height="wrap_content" />
+
+    <TextView android:layout_width="wrap_content" android:text="Contraseña"
+        android:layout_height="wrap_content" />
+
+    <EditText android:id="@+id/ettContraseña" android:layout_width="match_parent"
+        android:inputType="textPassword" android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content" />
+
+    <Button android:id="@+id/btnEntrar" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:onClick="ingresar" android:text="Entrar" />
+
+
+    <TextView android:id="@+id/txRegistrarUrl" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_gravity="center_horizontal"
+        android:onClick="regis" android:text="Registrar Aquí" android:textStyle="bold" />
+
+</LinearLayout>
